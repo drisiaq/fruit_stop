@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/materialize.min.css" />
+        <link rel="stylesheet" href="css/style.css">
+        <title>Vegetables & Fruits - cart</title>
+    </head>
+    <body>
+        <div class="container">
+            <h4>My Cart
+                <i class="material-icons">add_shopping_cart</i>
+            </h4>
+            <form action="" onsubmit="log()" id="sub">
+                <div class="input-field">
+                    Total kg: 
+                    <input id="total_kg" type="text" class="validate" required>
+                    <!-- <label for="first_name">Total kg</label> -->
+                </div>
+                <div class="input-field">
+                    Amount: 
+                    <input id="amount" type="text" class="validate" required>
+                </div>
+                <div class="input-field">
+                    Deliver here: 
+                    <input id="deliver" type="text" class="validate" required>
+                    <label for="first_name">Please type in the address for delivery here</label>
+                </div>
+                <div class="input-field">
+                    Total amount: 
+                    <input id="total_amt" type="text" class="validate" required>
+                </div>
+                <button class="btn-large yellow black-text but" href="">Pay Now</button>
+            </form>
+        </div>
+        <script src="js/jquery.js"></script>
+        <script src="js/materialize.min.js"></script>
+    </body>
+</html>
